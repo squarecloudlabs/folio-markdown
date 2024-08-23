@@ -2,7 +2,7 @@
 <?php
 
 use Laravel\Folio\Folio;
-use Snelling\FolioMarkdown\Facades\FolioMarkdown;
+use Squarecloudlabs\FolioMarkdown\Facades\FolioMarkdown;
 
 it('may use component props', function () {
     Folio::route(__DIR__.'/resources/views/pages');

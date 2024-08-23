@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Route;
 use Laravel\Folio\Events\ViewMatched;
 use Laravel\Folio\Folio;
 use Laravel\Folio\Pipeline\MatchedView;
-use Snelling\FolioMarkdown\Facades\FolioMarkdown;
+use Squarecloudlabs\FolioMarkdown\Facades\FolioMarkdown;
 use Tests\Feature\Fixtures\Http\Middleware\WithTerminableMiddleware;
 
 afterEach(function () {

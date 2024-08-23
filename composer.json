@@ -50,7 +50,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Snelling\\FolioMarkdown\\": "src/"
+            "Squarecloudlabs\\FolioMarkdown\\": "src/"
         }
     },
     "autoload-dev": {
@@ -75,10 +75,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Snelling\\FolioMarkdown\\FolioMarkdownServiceProvider"
+                "Squarecloudlabs\\FolioMarkdown\\FolioMarkdownServiceProvider"
             ],
             "aliases": {
-                "FolioMarkdown": "Snelling\\FolioMarkdown\\Facades\\FolioMarkdown"
+                "FolioMarkdown": "Squarecloudlabs\\FolioMarkdown\\Facades\\FolioMarkdown"
             }
         }
     },

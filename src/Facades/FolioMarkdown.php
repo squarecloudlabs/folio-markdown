@@ -1,16 +1,16 @@
 <?php
 
-namespace Snelling\FolioMarkdown\Facades;
+namespace Squarecloudlabs\FolioMarkdown\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Snelling\FolioMarkdown\FolioMarkdown
+ * @see \Squarecloudlabs\FolioMarkdown\FolioMarkdown
  */
 class FolioMarkdown extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \Snelling\FolioMarkdown\FolioMarkdown::class;
+        return \Squarecloudlabs\FolioMarkdown\FolioMarkdown::class;
     }
 }

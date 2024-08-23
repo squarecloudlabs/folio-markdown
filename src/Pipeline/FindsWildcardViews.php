@@ -1,6 +1,6 @@
 <?php
 
-namespace Snelling\FolioMarkdown\Pipeline;
+namespace Squarecloudlabs\FolioMarkdown\Pipeline;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;

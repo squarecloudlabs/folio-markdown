@@ -1,6 +1,6 @@
 <?php
 
-namespace Snelling\FolioMarkdown;
+namespace Squarecloudlabs\FolioMarkdown;
 
 use Closure;
 use Illuminate\Contracts\Events\Dispatcher;
@@ -38,7 +38,7 @@ class RequestHandler
      */
     public function __invoke(Request $request): mixed
     {
-        app()->extend(\Laravel\Folio\InlineMetadataInterceptor::class, fn ($app) => new \Snelling\FolioMarkdown\InlineMetadataInterceptor());
+        app()->extend(\Laravel\Folio\InlineMetadataInterceptor::class, fn ($app) => new \Squarecloudlabs\FolioMarkdown\InlineMetadataInterceptor());
         foreach ($this->mountPaths as $mountPath) {
             $requestPath = '/'.ltrim($request->path(), '/');
 

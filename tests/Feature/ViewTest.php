@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Schema;
 use Laravel\Folio\Folio;
-use Snelling\FolioMarkdown\Facades\FolioMarkdown;
+use Squarecloudlabs\FolioMarkdown\Facades\FolioMarkdown;
 use Tests\Feature\Fixtures\Book;
 use Tests\Feature\Fixtures\User;
 

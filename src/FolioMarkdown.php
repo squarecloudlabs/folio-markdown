@@ -1,6 +1,6 @@
 <?php
 
-namespace Snelling\FolioMarkdown;
+namespace Squarecloudlabs\FolioMarkdown;
 
 use Closure;
 use Illuminate\Contracts\Foundation\Application;

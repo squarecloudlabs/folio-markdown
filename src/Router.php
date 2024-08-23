@@ -1,6 +1,6 @@
 <?php
 
-namespace Snelling\FolioMarkdown;
+namespace Squarecloudlabs\FolioMarkdown;
 
 use Illuminate\Http\Request;
 use Illuminate\Pipeline\Pipeline;
@@ -14,12 +14,12 @@ use Laravel\Folio\Pipeline\MatchWildcardDirectories;
 use Laravel\Folio\Pipeline\SetMountPathOnMatchedView;
 use Laravel\Folio\Pipeline\State;
 use Laravel\Folio\Pipeline\StopIterating;
-use Snelling\FolioMarkdown\Pipeline\MatchDirectoryIndexViews;
-use Snelling\FolioMarkdown\Pipeline\MatchLiteralViews;
-use Snelling\FolioMarkdown\Pipeline\MatchRootIndex;
-use Snelling\FolioMarkdown\Pipeline\MatchWildcardViews;
-use Snelling\FolioMarkdown\Pipeline\MatchWildcardViewsThatCaptureMultipleSegments;
-use Snelling\FolioMarkdown\Pipeline\TransformModelBindings;
+use Squarecloudlabs\FolioMarkdown\Pipeline\MatchDirectoryIndexViews;
+use Squarecloudlabs\FolioMarkdown\Pipeline\MatchLiteralViews;
+use Squarecloudlabs\FolioMarkdown\Pipeline\MatchRootIndex;
+use Squarecloudlabs\FolioMarkdown\Pipeline\MatchWildcardViews;
+use Squarecloudlabs\FolioMarkdown\Pipeline\MatchWildcardViewsThatCaptureMultipleSegments;
+use Squarecloudlabs\FolioMarkdown\Pipeline\TransformModelBindings;
 
 class Router
 {

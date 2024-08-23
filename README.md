@@ -58,7 +58,7 @@ composer require snellingio/folio-markdown:^1.0@beta
    FolioMarkdown Facade:
 
 ```php
-use Snelling\FolioMarkdown\Facades\FolioMarkdown;
+use Squarecloudlabs\FolioMarkdown\Facades\FolioMarkdown;
 
 class FolioServiceProvider extends ServiceProvider
 {

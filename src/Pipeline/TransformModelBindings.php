@@ -1,6 +1,6 @@
 <?php
 
-namespace Snelling\FolioMarkdown\Pipeline;
+namespace Squarecloudlabs\FolioMarkdown\Pipeline;
 
 use Closure;
 use Illuminate\Http\Request;

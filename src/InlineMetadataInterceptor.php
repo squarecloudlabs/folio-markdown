@@ -1,6 +1,6 @@
 <?php
 
-namespace Snelling\FolioMarkdown;
+namespace Squarecloudlabs\FolioMarkdown;
 
 use Laravel\Folio\Metadata;
 use Laravel\Folio\Pipeline\MatchedView;

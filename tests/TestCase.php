@@ -7,8 +7,8 @@ use Illuminate\Support\Facades\View;
 use Laravel\Folio\FolioServiceProvider;
 use Laravel\Folio\MountPath;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Snelling\FolioMarkdown\FolioMarkdownServiceProvider;
-use Snelling\FolioMarkdown\Router;
+use Squarecloudlabs\FolioMarkdown\FolioMarkdownServiceProvider;
+use Squarecloudlabs\FolioMarkdown\Router;
 
 class TestCase extends Orchestra
 {
